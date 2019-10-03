@@ -9,4 +9,4 @@ steps:
       $type: Secret
       name: slack-token
     channel: "#deployathon-2019-10-02"
-    message: "You got a meeting invite from James Shen! Lucky you!"
+    message: "@here You got a meeting invite from James Shen! Lucky you!"
