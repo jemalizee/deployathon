@@ -8,5 +8,5 @@ steps:
     apitoken:
       $type: Secret
       name: slack-token
-    channel: "#deployathon-2019-10-02"
+    channel: "#nebula-workflows"
     message: "@here You got a meeting invite from James Shen! Lucky you!"
