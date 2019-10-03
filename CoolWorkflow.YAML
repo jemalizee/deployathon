@@ -1,7 +1,7 @@
+version: v1
+description: james Slack it
+
 steps:
-
-...
-
 - name: slack-notification
   image: projectnebula/slack-notification:latest
   spec:
@@ -9,5 +9,4 @@ steps:
       $type: Secret
       name: slack-token
     channel: "#deployathon-2019-10-02"
-    message: "You got a meeting invite from James Shen! Lucky you!."
-    username: Charles Messier
+    message: "You got a meeting invite from James Shen! Lucky you!"
