@@ -1,5 +1,5 @@
 version: v1
-description: james Slack it
+description: james
 
 steps:
 - name: slack-notification
